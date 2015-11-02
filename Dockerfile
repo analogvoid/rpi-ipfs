@@ -22,5 +22,5 @@ RUN apk update \
  && apk del wget \
  && apk del zip \
  && apk del curl \
- && rm -rf /var/cache/apk/* \
+ && rm -rf /var/cache/apk/*
 ENTRYPOINT ["/bin/bash", "/usr/local/bin/start_ipfs"]
