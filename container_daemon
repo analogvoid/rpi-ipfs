@@ -1,5 +1,4 @@
 #!/bin/bash
-#borrows from github.com/ipfs/go-ipfs/blob/master/bin/container_daemon
 
 # Test whether the mounted directory is writable for us
 if ( touch /data/ipfs/write_test 2>/dev/null ); then
