@@ -1,5 +1,5 @@
 # rpi-ipfs
-tl;dr: Containerized IPFS node compatible with Docker on Raspberry Pi
+**tl;dr:** Containerized IPFS node compatible with Docker on Raspberry Pi
 
 This project aims to create a Raspberry Docker container that when run initializes an [IPFS](https://ipfs.io) node. This project borrows from the [IPFS project](https://github.com/ipfs/go-ipfs) and uses [hypriot/alpine-scratch](https://hub.docker.com/r/hypriot/rpi-alpine-scratch/) as a base image.
 	
