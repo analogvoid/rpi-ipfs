@@ -16,7 +16,6 @@ RUN apk add --update curl
 RUN apk add --update wget
 RUN apk add --update ca-certificates
 RUN apk add --update zip
-#RUN adduser -D -h /data -u 1000 ipfs
 RUN mkdir -p /data/ipfs
 RUN wget https://gobuilder.me/get/github.com/ipfs/go-ipfs/cmd/ipfs/ipfs_${VERSION}_linux-arm.zip
 RUN /bin/bash /usr/local/bin/shacheck ${VERSION} ipfs_${VERSION}_linux-arm.zip
