@@ -1,5 +1,5 @@
 # rpi-ipfs
-As of Jan, 25 2018 this project is archived due to broken dependencies and lack of resources avaialble to maintain it. Others are encouraged to fork this project and resolve the dependency issues. The previously committed README.md (Nov 2, 2015) is as follows:
+As of Jan, 25 2018 this project is archived due to broken dependencies and lack of resources available to maintain it. Others are encouraged to fork this project and resolve the dependency issues. The previously committed README.md (Nov 2, 2015) is as follows:
 
 This project aims to create a Raspberry Pi compatible Docker container that when run initializes an [IPFS](https://ipfs.io) node. This project borrows from the [ipfs / go-ipfs project](https://github.com/ipfs/go-ipfs) and uses [hypriot/alpine-scratch](https://hub.docker.com/r/hypriot/rpi-alpine-scratch/) as a base image. This assumes you have Docker running on your Raspbery Pi. A good place to learn how to do this is [Hypriot](http://blog.hypriot.com/getting-started-with-docker-on-your-arm-device/).
 	
